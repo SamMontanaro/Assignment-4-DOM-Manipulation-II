@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/styles.css" rel="stylesheet">
+        <script src="../scripts/scripts.js" defer></script>
+        <title>Assignment #4</title>
+    </head>
+    <body>
+        <div class="btn-group">
+            <div id="left-btn">
+                <p id="left-btn-text">I'm right!</p>
+                <button type="button" onclick="leftBtn()">Click me!</button>
+            </div>
+            <div id="right-btn">
+                <p id="right-btn-text">No, I'm right!</p>
+                <button type="button" onclick="rightBtn()">No, click me!</button>
+            </div>
+        </div>
+        <div class="no-hover" onmouseover="noHover()">Don't hover over me</div>
+
+        <form id="form">
+            <h1 id="formCorrect">Not submitted yet</h1>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            
+            <label for="pw">Password:</label><br>
+            <input required type="password" id="pw" name="pw"><br>
+            
+            <input type="submit" value="Submit" id="submitBtn">
+        </form>
+    </body>
+</html>

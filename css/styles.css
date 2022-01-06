@@ -1,0 +1,80 @@
+.btn-group {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+#left-btn button, #right-btn button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#left-btn p, #right-btn p {
+    opacity: 0%;
+    cursor: default;
+    text-align: center;
+}
+
+#left-btn button {
+    background-color: lightgreen;
+}
+
+#right-btn button {
+    background-color: red;
+}
+
+.no-hover {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 5px;
+}
+
+#submitBtn {
+    border: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    background-color: #4267B2;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#formCorrect {
+    opacity: 0%;
+}
